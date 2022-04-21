@@ -12,6 +12,8 @@ private:
 	RectangleShape shape;
 		 
 public:
+	Brick() : position(0,0) {}
+
 	bool crash = false;
 	Brick(float x, float y);
 
@@ -33,8 +35,5 @@ public:
 		}
 		crash = true;
 	}
-
-
-	void Update(float dt);
 };
 

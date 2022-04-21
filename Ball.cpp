@@ -31,7 +31,7 @@ void Ball::reboundSides()
 
 void Ball::reboundBatOrTop()
 {
-	dir.y *= -1.f;
+	dir.y *= -1.f ;
 }
 
 void Ball::reboundBottom()
