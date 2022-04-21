@@ -17,6 +17,7 @@ class Bat
 {
 private:
 	Vector2f position;
+
 	RectangleShape shape;
 
 	float speed = 1000.f;
